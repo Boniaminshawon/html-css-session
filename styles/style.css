@@ -35,14 +35,14 @@
     margin-top: 60px; */
     /* margin-bottom: 60px; */
     margin: 60px auto;
-    background-color: aquamarine;
+  background: linear-gradient(pink,rgb(196, 240, 0));
     padding: 70px;
     border-width: 15px;
     border-color:blueviolet;
     border-style: groove;
 
 }
-.article h2{
+.article h2, #cow{
     text-align: center;
     font-size: 50px;
     border-width: 5px;
@@ -58,4 +58,10 @@
 .article p .important{
     font-size: 40px;
 
+}
+.cow image{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 }
