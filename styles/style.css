@@ -1,3 +1,61 @@
-h1{
-    color: chartreuse;
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{ 
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+}
+.hero{
+    background-image: url('../images/cow-768x607.jpeg');
+    background-position:0cqmin;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.hero h1{
+    color:darkblue;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900px;
+    padding-top: 60px;
+    font-family:cursive;
+    word-spacing: 4px;
+    letter-spacing: 10px;
+
+}
+.article{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px; */
+    /* margin-bottom: 60px; */
+    margin: 60px auto;
+    background-color: aquamarine;
+    padding: 70px;
+    border-width: 15px;
+    border-color:blueviolet;
+    border-style: groove;
+
+}
+.article h2{
+    text-align: center;
+    font-size: 50px;
+    border-width: 5px;
+    border-color:blueviolet;
+    border-style: groove;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.article p{
+    font-size: 28px;
+    line-height: 2em;
+}
+.article p .important{
+    font-size: 40px;
+
 }
