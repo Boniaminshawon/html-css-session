@@ -15,6 +15,7 @@
     background-position:0cqmin;
     background-size: cover;
     height: 100vh;
+    clip-path: polygon(19% 0, 81% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
     
 }
 .hero h1{
